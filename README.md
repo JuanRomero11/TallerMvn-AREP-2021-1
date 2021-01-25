@@ -3,7 +3,7 @@
 # Profesor: Luis Daniel Benavides
 # ARSW - Arquitecturas Empresariales 2021-1
 
-El proyecto Mean and standard deviation tiene como fin realizar el calculo en cuanto a la media y la desviacion estandar de una serie de datos los cuales se almacenaran de uno en uno en una implementacion PROPIA de la coleccion LikendList java, basada en esta se realizo una implementacion de una lista encadenada, y creando los diferentes metodos para poder realizar la insercion, eliminacion,iterador, impresion y busqueda de un dato en una posicion en especifico. Despues de ello se realizara el calculo de la media y la desviacion estandar de los datos capturados en la lsita.
+El proyecto Mean and standard deviation tiene como fin realizar el calculo en cuanto a la media y la desviacion estandar de una serie de datos los cuales se almacenaran de uno en uno en una implementacion PROPIA de la coleccion LikendList java, basada en esta se realizo una implementacion de una lista encadenada, y creando los diferentes metodos para poder realizar la insercion, eliminacion,iterador, impresion y busqueda de un dato en una posicion en especifico. 
 
 ## Prerrequisitos
 
