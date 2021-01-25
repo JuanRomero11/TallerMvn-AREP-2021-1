@@ -68,4 +68,4 @@ pruebas unitarias...
 ## Autor
 Juan Guillermo Romero 
 ## License
-Este codigo tiene una licencia Apache License 2.0 la cual se detalla en 
+Este codigo tiene una licencia Apache License 2.0 la cual se detalla en https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/LICENSE
