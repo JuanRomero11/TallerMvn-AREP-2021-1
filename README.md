@@ -44,9 +44,11 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
 
 ## Ejecución de Pruebas
 
-Para ejecutar las pruebas sencillamente se utliza el comando 
+Para ejecutar las pruebas se pueden utilizar dos comandos:
 
           mvn package
+          
+          mvn test
           
 Despues de ello se ejecutan todas las pruebas realizadas 
 
