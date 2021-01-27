@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.escualing.arep.calculator"},{"l":"edu.escuelaing.arep.intro"},{"l":"edu.escuelaing.arep.linked"}];updateSearchResults();

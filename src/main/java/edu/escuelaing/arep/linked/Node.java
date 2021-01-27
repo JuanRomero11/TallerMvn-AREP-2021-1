@@ -12,6 +12,7 @@ package edu.escuelaing.arep.linked;
 class Node<T> {
     private T val= null;
     private Node next= null;
+    
     public Node(T e){
         this.val = e;
     }
@@ -22,8 +23,10 @@ class Node<T> {
     public T getT(){
         return val;
     }
+    public void setT(T nuevo){
+       this.val=nuevo ;
+    }
     public Node getNext(){
-       // System.out.println((Double)val);
         return next;
     }
 }

@@ -18,7 +18,13 @@ public class LikendList<E> implements List<E> {
 
     Node<E> first=null;
     Node<E> end=null;
-    int size=-1;
+    int size=0;
+    /**
+     * En este método basicamente lo que hara es retornar el numero de nodos o
+     * el tamaño de la lista encadenada
+     *
+     * @return Integer
+     */
     public int size() {
         Node reco = first;
         int tamano = 0;
@@ -28,7 +34,9 @@ public class LikendList<E> implements List<E> {
         }
         return tamano;
     }
-
+     /*
+    * LinkedList implementa iterator, este metodo permite la iteracion en nuestra lista encadenada
+    */
     @Override
     public Iterator<E> iterator(){
     Iterator<E> iterator;
@@ -63,7 +71,15 @@ public class LikendList<E> implements List<E> {
     public <T> T[] toArray(T[] a) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    /**
+     * En add llega la información a insertar en un nuevo nodo, si
+     * no se ha creado ningun nodo y se hace llamado a este metodo lo creara y
+     * lo tomara este como raiz de ser creado actualizara la raiz siendo el
+     * nuevo nodo creado y este conocera al nodo anterior.
+     *
+     * @param e elemento que sera la informacion del nodo
+     * @return boolean si se realizo o no la insercion
+     */
     public boolean add(E e) {
         Node nuevo=new Node(e);
         if(first==null){
@@ -76,7 +92,10 @@ public class LikendList<E> implements List<E> {
         }
         return true;
     }
-    public void imprimir(){
+    /**
+     * Imprime todos los elementos de los nodos(lista)
+     */
+    public void print(){
 		Node reco = first;
 		while (reco != null) {
 			//System.out.print(reco.getT() + " HPTAAA");
@@ -84,7 +103,14 @@ public class LikendList<E> implements List<E> {
 		}
 		System.out.println();
 	}
-
+    /**
+     * Al tener al objeto este metodo hace la busqueda Nodo por nodo 
+     * para buscar dicho objeto y eliminarlo, uniendo lo que iba antes y despues de este
+     * de ser el primero o el ultimo solo lo elimina teniendo en cuenta la raiz.
+     *
+     * @param o elemento que se quiere eliminar
+     * @return boolean si se realizo o no la eliminacion del Nodo
+     */
     public boolean remove(Object o) {
         Node reco = first;
         Node previous=null;
@@ -121,7 +147,12 @@ public class LikendList<E> implements List<E> {
     public void clear() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    /**
+     * retorna el elemento del nodo en una posicion en especifico
+     *
+     * @param index entero que representa la posicion en la lista
+     * @return E elemento del nodo
+     */
     public E get(int index) {
         Node reco = first;
 	E informacion=null;

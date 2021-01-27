@@ -82,7 +82,7 @@ public class calculatorTest {
         lista1.add(198.7);
         lista1.add(38.8);
         lista1.add(138.2);
-        lista1.imprimir();
+        lista1.print();
         Double expResult = 572.03;
         Double result = calculator.calcularMedia(lista1);
         System.out.println(result);
