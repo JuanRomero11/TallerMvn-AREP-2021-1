@@ -57,13 +57,10 @@ Despues de ello se ejecutan todas las pruebas realizadas
 
 ![alt text]()
 
-Detallaremos mas las pruebas. En primera parte se realizaron varias pruebas entre ellas se puede decir que hay cuatro de integracion ya que en cada una de estas pruebas se crea la likendList con los datos y se maneja las funciones de esta para calcular la media y la desviacion. verificando que los resultados arrojados sean correctos:
-
 ![alt text]()
 ![alt text]()
 ![alt text]()
 
-pruebas unitarias...
 
 ## Autor
 Juan Guillermo Romero 
