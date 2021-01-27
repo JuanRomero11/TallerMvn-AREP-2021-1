@@ -83,10 +83,10 @@ public class calculatorTest {
         lista1.add(38.8);
         lista1.add(138.2);
         lista1.print();
-        Double expResult = 572.03;
+        Double expResult = 60.32;
         Double result = calculator.calcularMedia(lista1);
         System.out.println(result);
-        assertEquals(expResult, result, 572.03);
+        assertEquals(expResult, result, 60.32);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
