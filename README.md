@@ -23,10 +23,10 @@ Este proyecto basicamente esta construido en maven y el editor que se utilizo fu
 
 ## Diseño
 
-![alt text]()
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/Captura.PNG)
 
 ## Descripcion del diseño
-
+En este diseño se pueden evidenciar dos paquetes principales, uno en el que se encuentra la clase calculator la cual puede realizar el calculo de la media, la desviacion estandar, haciendo uso de nuestra LikendList y sus metodos, esta se encuentra el otro paquete principal.
 
 
 ## Como usar el Proyecto
@@ -39,13 +39,8 @@ Despues de que el proyecto esta clonado se accede a la consola del computador en
         mvn package
 
 
-![alt text]()
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/Package.PNG)
       
-
-![alt text]()
-
-
-![alt text]()
 
 ## Ejecución de Pruebas
 
@@ -55,12 +50,29 @@ Para ejecutar las pruebas sencillamente se utliza el comando
           
 Despues de ello se ejecutan todas las pruebas realizadas 
 
-![alt text]()
+Las pruebas se realizaron con los siguientes datos:
 
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/Datos.PNG)
 
+y se comprobaron los resultados con los siguientes datos:
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/Resultados.PNG)
+
+Se realizaron en total nueve pruebas, cinco de la clase LinkendList y cuatro de la clase Calculator.
+
+Evidencia que las pruebas de Calculator se realizaron con los datos correctos
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/testCalcularMedia.PNG)
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/CalcularMedia2.PNG)
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/CalcularDesviaci%C3%B3n.PNG)
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/CalcularDesviaci%C3%B3n2.PNG)
+
+Resultados obtenidos:
+
+![alt text](https://github.com/JuanRomero11/TallerMvn-AREP-2021-1/blob/main/imagenes/ResulTest.PNG)
 
 ## Autor
 Juan Guillermo Romero 
