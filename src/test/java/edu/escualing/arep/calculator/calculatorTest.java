@@ -58,10 +58,10 @@ public class calculatorTest {
         lista1.add(624.0);
         lista1.add(1503.0);
       // lista1.imprimir();
-        Double expResult = 550.6;
-        Double result = calculator.calcularMedia(lista1);
+        double expResult = 550.6;
+        double result = Math.round(calculator.calcularMedia(lista1)*100.0)/100.0;
         System.out.println(result);
-        assertEquals(expResult, result, 550.6);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -83,10 +83,10 @@ public class calculatorTest {
         lista1.add(38.8);
         lista1.add(138.2);
         lista1.print();
-        Double expResult = 60.32;
-        Double result = calculator.calcularMedia(lista1);
-        System.out.println(result);
-        assertEquals(expResult, result, 60.32);
+        double expResult = 60.32;
+        double result = Math.round(calculator.calcularMedia(lista1)*100.0)/100.0;
+        System.out.println("entree"+result);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
@@ -108,10 +108,10 @@ public class calculatorTest {
         lista1.add(1657.0);
         lista1.add(624.0);
         lista1.add(1503.0);
-        Double expResult = 572.03;
-        Double result = calculator.calcularDesviacion(lista1);
+        double expResult = 572.03;
+        double result = Math.round(calculator.calcularDesviacion(lista1)*100.0)/100.0;
         System.out.println(result);
-        assertEquals(expResult, result, 572.03);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
@@ -131,10 +131,10 @@ public class calculatorTest {
         lista1.add(198.7);
         lista1.add(38.8);
         lista1.add(138.2);
-        Double expResult = 62.26;
-        Double result = calculator.calcularDesviacion(lista1);
+        double expResult = 62.26;
+        double result = Math.round(calculator.calcularDesviacion(lista1)*100.0)/100.0;
         System.out.println(result);
-        assertEquals(expResult, result, 62.26);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
